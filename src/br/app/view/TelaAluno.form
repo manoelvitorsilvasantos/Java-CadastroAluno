@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jtabpainel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jtabpainel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jtabpainel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jtabpainelStateChanged"/>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtabpainelFocusGained"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jtabpainelMouseClicked"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtabpainelKeyPressed"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="painelFormulario">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Formulario">
+                <Property name="tabTitle" type="java.lang.String" value="Formulario"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblemail" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblnome" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblcpf" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbllogradouro" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblbairro" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblcomplemento" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblcep" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="txtcpf" min="-2" pref="119" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="lblcel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtcelular" min="-2" pref="124" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="lbltelefone" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txttelefone" min="-2" pref="124" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="txtnome" min="-2" pref="432" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="txtemail" min="-2" pref="279" max="-2" attributes="0"/>
+                                          <Component id="txtrua" alignment="0" min="-2" pref="432" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="txtcomplemento" min="-2" pref="143" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="lblcomplemento1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="txtbairro" min="-2" pref="143" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="lblcidade" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="txtcep" min="-2" pref="143" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="lblnumero" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="txtcidade" pref="143" max="32767" attributes="0"/>
+                                                      <Component id="jboxUF" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="txtnumero" alignment="0" min="-2" pref="143" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                      <Component id="bntSave1" min="-2" pref="82" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="bntSave" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="btnUpdate" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                      <Component id="btnDelete" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSeparator3" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
+                      <Component id="lblCpfBusca" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtcpfbusca" min="-2" pref="119" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnBusca" min="-2" pref="116" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblCpfBusca" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtcpfbusca" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="btnBusca" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblnome" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtnome" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtcpf" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="lblcpf" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblcel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtcelular" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="lbltelefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txttelefone" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblemail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtemail" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbllogradouro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtrua" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtbairro" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="lblbairro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblcidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtcidade" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtcomplemento" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="lblcomplemento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblcomplemento1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jboxUF" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtcep" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="lblcep" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblnumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtnumero" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btnDelete" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnUpdate" min="-2" max="-2" attributes="0"/>
+                          <Component id="bntSave" max="32767" attributes="0"/>
+                          <Component id="bntSave1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblnome">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome Completo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtnome">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="txtcpf">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder/>
+                  </Border>
+                </Property>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="###.###.###-##" subtype="-1" type="5"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblcpf">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CPF"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblcel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CEL"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="txtcelular">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="(##) #-####-####" subtype="-1" type="5"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbltelefone">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tel"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="txttelefone">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="(##) ####-####" subtype="-1" type="5"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblemail">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="E-mail"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtemail">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbllogradouro">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Rua/Avenida/Logradouro"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtrua">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblbairro">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Bairro"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtbairro">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblcidade">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cidade"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtcidade">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblcomplemento">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Complemento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtcomplemento">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblcomplemento1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="UF"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jboxUF">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="26">
+                    <StringItem index="0" value="AL"/>
+                    <StringItem index="1" value="AP"/>
+                    <StringItem index="2" value="AM"/>
+                    <StringItem index="3" value="BA"/>
+                    <StringItem index="4" value="CE"/>
+                    <StringItem index="5" value="DF"/>
+                    <StringItem index="6" value="ES"/>
+                    <StringItem index="7" value="GO"/>
+                    <StringItem index="8" value="MA"/>
+                    <StringItem index="9" value="MT"/>
+                    <StringItem index="10" value="MS"/>
+                    <StringItem index="11" value="MG"/>
+                    <StringItem index="12" value="PA"/>
+                    <StringItem index="13" value="PB"/>
+                    <StringItem index="14" value="PR"/>
+                    <StringItem index="15" value="PE"/>
+                    <StringItem index="16" value="PI"/>
+                    <StringItem index="17" value="RJ"/>
+                    <StringItem index="18" value="RN"/>
+                    <StringItem index="19" value="RS"/>
+                    <StringItem index="20" value="RO"/>
+                    <StringItem index="21" value="RR"/>
+                    <StringItem index="22" value="SC"/>
+                    <StringItem index="23" value="SP"/>
+                    <StringItem index="24" value="SE"/>
+                    <StringItem index="25" value="TO"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblcep">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CEP"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="txtcep">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="#####-###" subtype="-1" type="5"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblnumero">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Numero"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="txtnumero">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format subtype="1" type="0"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDelete">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/icones/removerCliente_icone.png"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnUpdate">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/icones/editCliente_icone.png"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator2">
+            </Component>
+            <Component class="javax.swing.JButton" name="bntSave">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/icones/addCliente_icone.png"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bntSaveActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator3">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCpfBusca">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CPF"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="txtcpfbusca">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="###.###.###-##" subtype="-1" type="5"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnBusca">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Buscar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="bntSave1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/icones/clear.png"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bntSave1ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelTable">
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="panelTableMouseClicked"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Informa&#xe7;&#xf5;es">
+                <Property name="tabTitle" type="java.lang.String" value="Informa&#xe7;&#xf5;es"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="680" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" pref="68" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane1" pref="493" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jButton2" max="32767" attributes="0"/>
+                          <Component id="jButton3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblAluno">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblAlunoMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/icones/editCliente_icone.png"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/icones/atualizar.png"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelVoltar">
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="panelVoltarMouseClicked"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Voltar ao Menu">
+                <Property name="tabTitle" type="java.lang.String" value="Voltar ao Menu"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="509" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="521" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Voltar ao Menu"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/endereco/dao/EnderecoDAO.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/utils/Validator.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/app/view/TelaAluno.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/aluno/dao/AlunoDAO.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/login/service/LoginService.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/app/view/TelaLogin.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/contatos/service/ContatosService.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/aluno/service/AlunoServiceInterface.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/endereco/service/EnderecoServiceInterface.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/endereco/dao/EnderecoDAOInterface.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/contatos/dao/ContatosDAO.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/endereco/service/EnderecoService.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/contatos/service/ContatosServiceInterface.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/aluno/dao/AlunoDAOInterface.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/login/utils/ValidatorLogin.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/app/view/dadosPessoais/dao/DadosPessoaisDAOInterface.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/app/view/dadosPessoais/dao/DadosPessoaisDAO.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/contatos/dao/ContatosDAOInterface.java</file>
+            <file>file:/C:/Users/mvictor/Documents/NetBeansProjects/CadastroAluno/src/br/cadastro/app/aluno/service/AlunoService.java</file>
+        </group>
+    </open-files>
+</project-private>
